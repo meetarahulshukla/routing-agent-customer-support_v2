@@ -1,0 +1,29 @@
+# ruff: noqa
+import os
+
+os.environ["GOOGLE_GENAI_USE_VERTEXAI"] = "FALSE"
+os.environ["GOOGLE_GENAI_USE_ENTERPRISE"] = "FALSE"
+
+from google.adk.agents import Agent
+from google.adk.apps import App
+
+root_agent = Agent(
+    name="customer_support_router",
+    model="gemini-3.6-flash",
+    instruction="""You are a customer support routing agent.
+Classify the customer message into exactly ONE department and respond with ONLY that department name — nothing else.
+
+Departments:
+- BILLING: payment issues, invoices, refunds, duplicate charges
+- TECHNICAL: login problems, app bugs, website errors, account access
+- SHIPPING: delivery status, tracking, lost packages, delays
+- RETURNS: return requests, exchanges, damaged items
+- GENERAL: everything else
+
+Respond with ONLY the department name. Example: BILLING""",
+)
+
+app = App(
+    root_agent=root_agent,
+    name="app",
+)
