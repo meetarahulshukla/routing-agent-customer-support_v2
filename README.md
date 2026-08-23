@@ -62,6 +62,17 @@ The agent engine routes conversations explicitly using the following logic layer
     *   *General inquiries* ➡️ Natural fallback answering
 
 ---
+## Support Workflows & Agent Outputs
+
+### 🔐 Authentication Issues
+![Can't Login Flow](./cant_login.png)
+
+### 📦 Order Tracking
+![Where is My Order Flow](./where_is_my_order.png)
+
+### 🔄 Returns & Refunds
+![Return Policy Flow](./return_policy.png)
+---
 
 ## 📈 Architecture Metrics (Interview Prep)
 
