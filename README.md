@@ -27,12 +27,25 @@ The agent dynamically selects from three core tools to handle live support queri
 
 ```text
 app/
+├── .github/
+│   └── ISSUE_TEMPLATE/       # GitHub issue template directory
 ├── app/                      # Core agent runtime
 │   ├── agent.py              # Tool bindings, prompt instructions, and Agent setup
 │   └── app_utils/            # Agent framework utilities and helpers
 ├── tests/                    # Target suite for unit and integration testing
+├── .env                      # Environment configuration variables
+├── CODE_OF_CONDUCT.md        # Contributor Covenant Code of Conduct
+├── CONTRIBUTING.md           # Contribution guidelines
 ├── GEMINI.md                 # AI-assisted development context configuration
-└── pyproject.toml            # Package locks and project environment dependencies
+├── LICENSE                   # MIT License
+├── README.md                 # Project documentation (v2 overview & image)
+├── SECURITY.md               # Security policy
+├── Routing Agent Image.png   # Routing architecture diagram/screenshot
+├── cant_login.png            # Customer support flow asset (Login issue)
+├── pyproject.toml            # Package locks and project environment dependencies
+├── pull_request_template.md  # PR submission template
+├── return_policy.png         # Customer support flow asset (Returns)
+└── where_is_my_order.png     # Customer support flow asset (Order status)
 ```
 
 ---
