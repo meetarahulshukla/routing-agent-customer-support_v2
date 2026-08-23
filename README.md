@@ -10,6 +10,10 @@ This repository contains **Version 2 (v2)** of the customer support routing agen
 
 ---
 
+<p align="center">
+  <img src="./Routing%20Agent%20Image.png" alt="Routing Agent" width="600"/>
+</p>
+
 ## 🚀 Active Agent Tools (v2)
 
 The agent dynamically selects from three core tools to handle live support queries:
