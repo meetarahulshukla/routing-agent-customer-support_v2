@@ -1,5 +1,11 @@
 # 🤖 Routing Agent Customer Support (v2)
 
+![Google ADK](https://img.shields.io/badge/Google%20ADK-4285F4?style=for-the-badge&logo=google&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini%203.6%20Flash-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![ReAct](https://img.shields.io/badge/Pattern-ReAct-orange?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Working-brightgreen?style=for-the-badge)
+
 This repository contains **Version 2 (v2)** of the customer support routing agent https://github.com/meetarahulshukla/routing-agent-customer-support. It upgrades the project from a simple text classifier into a true tool-use ReAct workflow using the Google ADK framework.
 
 ---
@@ -48,3 +54,4 @@ The agent engine routes conversations explicitly using the following logic layer
 | **Output Type** | Categorical label text (e.g., `BILLING`) | Natural conversational response with live data |
 | **Tool Availability** | None (Static routing classifier) | 3 integrated tool functions |
 | **Workflow Class** | Deterministic Classifier | True Autonomous ReAct Agent |
+
